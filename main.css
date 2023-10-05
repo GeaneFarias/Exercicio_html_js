@@ -1,5 +1,8 @@
 *{
     background-color: rgb(34, 31, 32);
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
 
 .header{
@@ -7,9 +10,17 @@
    
     border: 3px solid blueviolet;
 }
+.conteiner{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
 
 h1{
-    margin-left: 100px;
+   
+    padding: 50px;
+    text-align: center;
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
     background-color: black;
@@ -17,8 +28,10 @@ h1{
 }
 
 h2{
+
     font-size: 25px;
-    margin-left: 250px;
+    margin-top: 50px;
+    text-align: center;
     color: #fff;
 
 }
@@ -29,15 +42,17 @@ h2{
 }
 
 input, button{
+
     display: block;
     padding: 10px;
     margin-bottom: 15px;
-    margin-left: 19%;
+    margin-left: auto;
+    margin-right: auto;
     width: 70%;
     resize: none;
     color: white;
     font-size:15px
-   
+
 }
 
 button{
@@ -58,12 +73,10 @@ button:hover{
 .mensagedvalid{
     background-color: #5a268a;
     color: #fff;
-    width: 1000px;
-    height: 70px;  
-    align-items: center;
-    margin-left: 200px;
     font-size: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 16px;
+    text-align: center;
+    display: none;
 
 }
